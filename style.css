@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: white;
+    border-bottom: 1px solid #f0f0f0;
+}
+.logo img{
+    height: 60px;
+}
+.nanum-pen-script-regular{
+  font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.logo-klunthing{
+    font-family: ;
+}
+.nav-menu a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav-menu a:hover{
+    color: #ff6600;
+}
+/* Hero section */
+.hero{
+    position: relative;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px 20px;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 100px;       
+}
+.hero h1{
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: #222;
+}
+.hero-img{
+    width: 1800px;
+    max-width: 95%;
+}
+.txt_body{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    padding-top: 100px;
+    text-align: left;
+    padding-left: 100px;
+}
+.txt_body h3{
+    margin: 0px;
+}
+/* Responsive */
+@media(max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .hero h1{
+        font-size: 32px;
+    }
+}
